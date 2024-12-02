@@ -1,4 +1,4 @@
-ARG NGINX_IMAGE_VERSION=1.27-alpine3.20-slim
+ARG NGINX_IMAGE_VERSION=1.22.1-alpine
 FROM nginx:${NGINX_IMAGE_VERSION}
 
 RUN apk -U upgrade

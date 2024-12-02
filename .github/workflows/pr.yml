@@ -54,7 +54,7 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           build-args: |
-            NGINX_IMAGE_VERSION=1.27-alpine3.20-slim
+            NGINX_IMAGE_VERSION=1.22.1-alpine
 
       - name: Trivy check
         uses: aquasecurity/trivy-action@master
